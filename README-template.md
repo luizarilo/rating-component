@@ -28,22 +28,21 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
 
 #### Desktop design
 
-<img src="https://github.com/luizarilo/3-columns-preview-card/blob/master/images/desktop.png" alt="Desktop design"/>
+<img src="https://github.com/luizarilo/rating-component/blob/master/images/desktop_design.png" alt="Desktop design"/>
 
 #### Desktop design - Thank You
 
-<img src="https://github.com/luizarilo/3-columns-preview-card/blob/master/images/mobile.png" alt="Mobile design"/>
+<img src="https://github.com/luizarilo/rating-component/blob/master/images/desktop_thanks.png" alt="Thanks Screen"/>
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FrontEnd Mentor Solution](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub/rating-component-with-a-flexbox-Uo3Ga2GiUE)
+- Live Site URL: [Netlify Site](https://brilliant-cendol-e3c8cd.netlify.app)
 
 ## My process
 
