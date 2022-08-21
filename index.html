@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Interactive rating component</title>
+
+  <body>
+    <div class="container">
+      <div class="box__rating">
+        <div class=box__icon>
+          <span class="dot"> <img src="images/icon-star.svg" class="icon__star" alt="icon star"> </span>
+        </div>
+
+        <div class="box__text">
+          <h1 class="text__title">How did we do?</h1>
+          <h3 class="text__subtitle"> Please let us know how we did with your support request. All feedback is
+            appreciated
+            to help us improve our offering!</h3>
+        </div>
+
+        <div class="rating__inputs">
+          <div class="radio">
+            <label>
+              <input class="input__radio" type="radio" name="rating" id="rating_1" value = "1">
+              <span>1</span>
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input class="input__radio" type="radio" name="rating" id="rating_2" value = "2">
+              <span>2</span>
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input class="input__radio" type="radio" name="rating" id="rating_3" value = "3">
+              <span>3</span>
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input class="input__radio" type="radio" name="rating" id="rating_4" value = "4">
+              <span>4</span>
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input class="input__radio" type="radio" name="rating" id="rating_5" value = "5">
+              <span>5</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="box__button">
+          <button class="button__submit" id = "button__submit" onclick = "rating()"> S U B M I T</button>
+        </div>
+      </div>
+
+      <div class="modal__box">
+        <div id="myModal" class="modal">
+          <div class="modal__content">
+            <span class="close">&times;</span>
+            <img class = "modal__image" src = "images/illustration-thank-you.svg" class = "moda__image">
+            <div class = "text__rating">
+              <p>You selected <span id = "rating__select"></span> out of 5</p>
+            </div>
+            <h1 class = "rating__title">Thank you!</h1>
+            <h4 class = "rating__subtitle">
+              We appreciate you taking the time to give a rating. If you ever need more support, 
+              don’t hesitate to get in touch!
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+  <script src="scripts.js"></script>
+</html>
